@@ -22,12 +22,12 @@
 - 
 - l'utilisation de l'`asynchrone` ❌ / ✔️
 - 
-  ### JavaScript est mono-thread, ce qui signifie qu'il ne peut exécuter qu'une tâche à la fois.
-  ### L'asynchronie permet de ne pas bloquer le fil principal lorsqu'une tâche longue est exécutée, en continuant à traiter d'autres opérations pendant ce temps.
+  1. **JavaScript est mono-thread, ce qui signifie qu'il ne peut exécuter qu'une tâche à la fois.**
+  2. **L'asynchronie permet de ne pas bloquer le fil principal lorsqu'une tâche longue est exécutée, en continuant à traiter d'autres opérations pendant ce temps.**
   
 - les spécifités du mot-clef `this` ❌ / ✔️
 
-  ### a moitié
+  **a moitié**
 
 ## 💻 Je code en Javascript
 

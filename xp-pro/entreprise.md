@@ -2,9 +2,12 @@
 
 ## L'activité principale
 
-> Décris en quelques lignes l'activité principale de l'entreprise
+> La société générale est une banque présente a l'internationale, souhaite améliorer ses performances et celles de ses employés
 
 ## Ton équipe
 
-> Décris l'équipe avec laquelle tu travailles, les différents postes et ton interaction avec ces postes.
+>Je travaille dans l'équipe innovation directement rattachée au service Audit/Inspection,
+>nous travaillons avec les équipes de l'audit pour cibler leurs besoin en ce qui concerne leurs outils/ app de travail et trouvons des solutions pour les améliorer
+>et surtout zen créér de noueaux plus performants et utiles.
+>Je suis dans une équipe de 3 personnes en tout, Mon manager dev et un collègue Dev.
 

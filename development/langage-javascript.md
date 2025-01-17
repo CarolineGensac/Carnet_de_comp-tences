@@ -20,7 +20,7 @@
 
 - les normes `ecmascript` ❌ / ✔️
 - 
-- l'utilisation de l'`asynchrone` ❌ / ✔️
+- l'utilisation de l'`asynchrone`  ✔️ (async / await/ etc)
 - 
   1. **JavaScript est mono-thread, ce qui signifie qu'il ne peut exécuter qu'une tâche à la fois.**
   2. **L'asynchronie permet de ne pas bloquer le fil principal lorsqu'une tâche longue est exécutée, en continuant à traiter d'autres opérations pendant ce temps.**

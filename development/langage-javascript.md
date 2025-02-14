@@ -11,9 +11,12 @@
 
 1. **Types de données** : Primitifs (`Number`, `String`, `Boolean`, `Undefined`, `Null`, `Symbol`, `BigInt`) et Objets.  
 2. **Variables** : `var`, `let`, ou `const`.
-```var globalVar = "Je suis global"; // Éviter var (pas de portée bloc)
+
+```javascript
+var globalVar = "Je suis global"; // Éviter var (pas de portée bloc)
 let localVar = "Je peux être réassigné";
-const constantVar = "Je ne change jamais";```
+const constantVar = "Je ne change jamais";
+```
 
 3. **Structures de contrôle** : Conditions, boucles ...`if`, `else`, `switch`, `for`, `while`, `do...while`, `for...in`, `for...of`.
  > Elles permettent de prendre des décisions (if) ou de répéter des actions (for, while).
@@ -34,13 +37,15 @@ const constantVar = "Je ne change jamais";```
  > Ils permettent de diviser le code en petits morceaux qu'on peut importer et utiliser ailleurs.
 
 - les normes `ecmascript` ❌ / ✔️
-- 
-- l'utilisation de l'`asynchrone`  ✔️ (async / await/ etc)
- > permet d’effectuer des requêtes réseau de manière efficace sans bloquer l'exécution du programme.
 
-### Exemple de récupération d'article en JavaScript avec `async/await`
+- l'utilisation de l'`asynchrone` ✔️ (async / await/ etc)
+  
+> JavaScript est mono-thread, ce qui signifie qu'il ne peut exécuter qu'une tâche à la fois.
+> L'asynchronie permet de ne pas bloquer le fil principal lorsqu'une tâche longue est exécutée, en continuant à traiter d'autres opérations pendant ce temps.
 
-```
+ Exemple de récupération d'article en JavaScript avec `async/await`
+
+```javascript
 // récupérer les données
 async function fetchArticle(url) {
   try {
@@ -61,14 +66,13 @@ const articleUrl = "https://example.com/article";  // Remplacez par une URL rée
 
 // Appel de la fonction pour récupérer l'article
 fetchArticle(articleUrl);
-
+```
 - 
-  1. **JavaScript est mono-thread, ce qui signifie qu'il ne peut exécuter qu'une tâche à la fois.**
-  2. **L'asynchronie permet de ne pas bloquer le fil principal lorsqu'une tâche longue est exécutée, en continuant à traiter d'autres opérations pendant ce temps.**
+
   
 - les spécifités du mot-clef `this` ❌ / ✔️
 
-  **a moitié**
+ > this fait généralement référence à l'objet qui contient la méthode ou la fonction, mais son comportement dépend du contexte d'appel.
 
 ## 💻 Je code en Javascript
 

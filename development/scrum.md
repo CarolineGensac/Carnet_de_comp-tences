@@ -6,12 +6,12 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- Différence entre Agile et SCRUM ✔️
+* Différence entre Agile et SCRUM ✔️
   
-* Agile est une philosophie ou un ensemble de principes pour le développement de logiciels qui favorise la collaboration, l'adaptabilité, et la livraison rapide de valeur. Il se base sur des valeurs et principes définis   
+ * Agile est une philosophie ou un ensemble de principes pour le développement de logiciels qui favorise la collaboration, l'adaptabilité, et la livraison rapide de valeur. Il se base sur des valeurs et principes définis   
   dans le manifeste Agile. Agile peut être appliqué avec diverses méthodologies, dont Scrum.
 
-* Scrum est une méthodologie Agile spécifique. Il s'agit d'un cadre de travail structuré pour aider les équipes à travailler de manière Agile. Scrum se base sur des rôles, avec des cycles appelés sprints.
+ * Scrum est une méthodologie Agile spécifique. Il s'agit d'un cadre de travail structuré pour aider les équipes à travailler de manière Agile. Scrum se base sur des rôles, avec des cycles appelés sprints.
   
 - Expliquer les différents rituels et leur intérêt : ❌ / ✔️
   #### 1. Daily Stand Up (Réunion quotidienne)

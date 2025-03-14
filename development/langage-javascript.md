@@ -69,8 +69,6 @@ const articleUrl = "https://example.com/article";  // Remplacez par une URL rée
 // Appel de la fonction pour récupérer l'article
 fetchArticle(articleUrl);
 ```
-- 
-
   
 - les spécifités du mot-clef `this` ❌ / ✔️
 

@@ -18,9 +18,10 @@
   
 - comment et pourquoi étendre une interface ❌ / ✔️
   
-- les classes et les decorators ✔️
+- les classes et les decorators ❌ / ✔️
 
   > Les classes en TypeScript sont similaires à celles en JavaScript (ES6) mais avec du typage fort.
+  > elles définissent des objets avec propriétés, méthodes et héritage.
   ``` typescript
   class Person {
   name: string;
@@ -39,6 +40,9 @@
 const user = new Person("Caroline", 33);
 user.greet();
 ```
+- Les décorateurs ajoutent du comportement aux classes, méthodes ou propriétés.
+
+- Modificateurs (public, private, protected) gèrent l'accessibilité des membres.
 
 ## 💻 J'utilise
 

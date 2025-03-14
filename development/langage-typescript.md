@@ -36,10 +36,10 @@
     console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
   }
 }
-
 const user = new Person("Caroline", 33);
 user.greet();
 ```
+
 - Les décorateurs ajoutent du comportement aux classes, méthodes ou propriétés.
 
 - Modificateurs (public, private, protected) gèrent l'accessibilité des membres.

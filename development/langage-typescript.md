@@ -6,10 +6,39 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'intéret de TypeScript dans l'IDE ❌ / ✔️
-- les types de bases ✔️ 
+- l'intéret de TypeScript dans l'IDE ✔️
+
+  > TypeScript détecte les erreurs avant l'exécution (contrairement à JavaScript)
+  > peut afficher les types et définitions en survolant une variable ou une fonction.
+  >  Moins d’erreurs dès l'écriture du code.
+  
+- les types de bases ✔️
+
+  > string, number, boolean, null, undefined, symbol, bigint, any, unknown, void, et never
+  
 - comment et pourquoi étendre une interface ❌ / ✔️
+  
 - les classes et les decorators ✔️
+
+  > Les classes en TypeScript sont similaires à celles en JavaScript (ES6) mais avec du typage fort.
+  ``` typescript
+  class Person {
+  name: string;
+  age: number;
+
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+
+  greet(): void {
+    console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
+  }
+}
+
+const user = new Person("Caroline", 33);
+user.greet();
+```
 
 ## 💻 J'utilise
 

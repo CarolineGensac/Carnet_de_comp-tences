@@ -22,6 +22,7 @@
 
   > Les classes en TypeScript sont similaires à celles en JavaScript (ES6) mais avec du typage fort.
   > elles définissent des objets avec propriétés, méthodes et héritage.
+  
   ``` typescript
   class Person {
   name: string;
@@ -35,10 +36,10 @@
   greet(): void {
     console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
   }
-}
-const user = new Person("Caroline", 33);
-user.greet();
-```
+  }
+  const user = new Person("Caroline", 33);
+  user.greet();
+  ```
 
 - Les décorateurs ajoutent du comportement aux classes, méthodes ou propriétés.
 

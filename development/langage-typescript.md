@@ -41,9 +41,9 @@
   user.greet();
   ```
 
-- Les décorateurs ajoutent du comportement aux classes, méthodes ou propriétés.
+> Les décorateurs ajoutent du comportement aux classes, méthodes ou propriétés.
 
-- Modificateurs (public, private, protected) gèrent l'accessibilité des membres.
+> Modificateurs (public, private, protected) gèrent l'accessibilité des membres.
 
 ## 💻 J'utilise
 

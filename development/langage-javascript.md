@@ -36,7 +36,9 @@ const constantVar = "Je ne change jamais";
 9. **Modules** : Organisation du code avec `export` et `import {}`.
  > Ils permettent de diviser le code en petits morceaux qu'on peut importer et utiliser ailleurs.
 
-- les normes `ecmascript` ❌ / ✔️
+- les normes `ecmascript`/ ✔️
+  
+> ES6 etc
 
 - l'utilisation de l'`asynchrone` ✔️ (async / await/ etc)
   

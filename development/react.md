@@ -7,6 +7,30 @@
 ## 🎓 J'ai compris et je peux expliquer
 
 - l'état (_state_) pour contrôler l'affichage d'un composant ❌ / ✔️
+
+  > c'est une variable interne qui permet de modifier l’affichage d’un composant sans recharger la page.
+  ✔ Permet de réagir aux interactions utilisateur.
+  ✔ Évite de modifier directement le DOM.
+  ✔ Met à jour uniquement le composant concerné.
+
+  exemple :
+  ```javascript
+  import { useState } from "react";
+
+  function ToggleText() {
+    const [visible, setVisible] = useState(true); // Déclare l'état "visible"
+  
+    return (
+      <div>
+        {visible && <p>Texte affiché !</p>}
+        <button onClick={() => setVisible(!visible)}>Afficher / Cacher</button>
+      </div>
+    );
+  }
+  
+  export default ToggleText;
+  ```
+
 - les composants enfants et les _props_ qu'on leur passe ❌ / ✔️
 - le déclenchement d'instructions en fonction des actions de l'utilisateur ❌ / ✔️
 - le déclenchement d'instructions en fonction de l'étape du cycle de vie du composant ou du changement de valeur de ses props ❌ / ✔️
